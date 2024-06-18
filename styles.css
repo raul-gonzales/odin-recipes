@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.container.recipe-name {
+.container.index-title {
   background-color: lightsalmon;
   text-align: center;
   font-size: 20px;
@@ -13,3 +13,28 @@
   background-color: lightblue;
   font-size: 1.1em;
 }
+
+.container.recipe-name {
+    background-color: lightsalmon;
+    padding: 20px;
+}
+
+.container.recipe-name h1 {
+    margin-bottom: 10px;
+}
+
+.container.recipe-ingredients {
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.container.recipe-ingredients li {
+    font-style: italic;
+}
+
+.container.recipe-steps {
+    background-color: rgb(186, 255, 186);
+    padding: 20px;
+}
+
